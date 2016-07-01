@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>J-Query Video Switch</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class='container text-center title'>
+      <p>HONDA P<span class='redR'>R</span>ESENTS</p>
+        <span id='span_text'>THE OTHE<span class='redR'>R</span> SIDE </span>
+      <p>A DOUBLE-SIDED STO<span class='redR' >R</span>Y</p>
+    </div>
+
+    <div class="containerVid">
+        <div id="exposecont" class="vidcont">
+            <video muted src="assets/videoA.mp4" controls width="1260" height="536"></video>
+        </div>
+        <div id="defaultcont" class="vidcont">
+            <video src="assets/videoB.mp4" controls width="1260" height="536"></video>
+        </div>
+    </div>
+
+    <div class="container text-center title">
+      <h3>Press & hold the <button class="button_red"> R </button> button on the keyboard anytime during the video to view the other side of the story.</h3>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

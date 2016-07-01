@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,600,600italic,700);
+
+body {
+ font-family: 'Josefin Sans', sans-serif;
+ font-style: italic ;
+	color : whitesmoke ;
+	background: #212121;
+
+}
+.containerVid{
+	width: 1260px;
+	height: 500px;
+  margin: 35px auto;
+	position: relative ;
+}
+
+.vidcont{
+	position: absolute;
+	width: 1000px;
+}
+
+p{
+font-size: 21px;
+margin : 0 0 0px;
+   letter-spacing: 3px;
+}
+
+
+#span_text{
+font-size: 42px;
+
+}
+
+.redR{
+	color: red;
+
+}
+
+.title{
+	    margin-top: 2%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding:  12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  border-radius: 25%;
+}
+
+button:focus {outline:0;}
+
+.button_red {
+    background-color: transparent;
+    color: #f44336;
+    border: 2px solid #f44336;
+}
+
+.button_red:hover {
+    background-color: black;
+    color: white;
+      border: 2px solid white;
+}
